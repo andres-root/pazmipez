@@ -1,0 +1,14 @@
+section.environment {
+  height: 65vh;
+  width: 100%;
+
+  .item {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  img {
+    max-height: 21.5555555rem;
+    // width: 35rem;
+  } 
+}

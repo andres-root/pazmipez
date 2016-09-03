@@ -1,0 +1,23 @@
+
+* { box-sizing: border-box; }
+
+html { overflow-y: scroll; }
+
+body { 
+  font-family: sans-serif;
+}
+
+a {
+
+  &:hover,
+  &:visited,
+  &:active,
+  &:target {
+	color: $white-0;
+    text-decoration: none;
+  } 
+}
+
+ul {
+  list-style: none;
+}
